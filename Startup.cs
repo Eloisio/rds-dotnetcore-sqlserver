@@ -28,7 +28,7 @@ namespace AspNetMvc
             services.AddControllersWithViews();
 
             services.AddDbContext<RdsContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("BlogDatabase")));
+                options.UseSqlServer(Configuration.GetConnectionString("MovieDatabase")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
